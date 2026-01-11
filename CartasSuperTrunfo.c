@@ -2,6 +2,7 @@
 
 int main(){
     //Variaveis carta01
+
     char estado01;
     char codigo01 [4];
     char nomedacidade01 [20];
@@ -11,6 +12,7 @@ int main(){
     int n_pontostur01;
 
     //Variaveis carta02
+
     char estado02;
     char codigo02 [4];
     char nomedacidade02 [20];
@@ -42,6 +44,7 @@ int main(){
     printf("DADOS DA PRIMEIRA CARTA PREENCHIDOS COM SUCESSO\n\n");
 
     // Preenchendo os valores das variáres para carta 02
+
     puts("Preencha os dados da segunda carta:\n");
     printf("Letra que referencia o Estado que a carta pertenca(APENAS LETRA DE A-H):");
     scanf(" %c", &estado02);
@@ -62,7 +65,9 @@ int main(){
     printf("\n");
     printf("DADOS DA SEGUNDA CARTA PREENCHIDOS COM SUCESSO\n\n");
 
-//Mostrando dados das cartas
+    //Mostrando dados das cartas
+
+    //Carta01
 
     printf("===========================================\n");
     printf("\tDADOS DA PRIMEIRA CARTA:\n");
@@ -76,6 +81,7 @@ int main(){
     printf("Quantidades de pontos turisticos: %9d\n", n_pontostur01);
     printf("*******************************************\n\n\n");
 
+    //Carta02
 
     printf("===========================================\n");
     printf("\tDADOS DA SEGUNDA CARTA:\n");
